@@ -1,4 +1,4 @@
-import { CarList } from './pages/carList'
+import { CarList } from './components/carList'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
 import { RegisterCarForm } from './components/registerCarForm';

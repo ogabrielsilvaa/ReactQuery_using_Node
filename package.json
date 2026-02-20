@@ -1,11 +1,11 @@
 {
   "name": "pratica-crud-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projeto simples feito para testar o consumo de uma API Node feito através do ReactQuery, utilizando a biblioteca Tanstack.",
   "main": "src/app/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/app/main.js"
+    "start": "node src/app/server.js"
   },
   "keywords": [],
   "author": "",
@@ -22,5 +22,13 @@
     "autoprefixer": "^10.4.24",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.18"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogabrielsilvaa/ReactQuery_using_Node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ogabrielsilvaa/ReactQuery_using_Node/issues"
+  },
+  "homepage": "https://github.com/ogabrielsilvaa/ReactQuery_using_Node#readme"
 }

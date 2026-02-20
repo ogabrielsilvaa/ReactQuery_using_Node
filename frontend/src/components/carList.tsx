@@ -1,6 +1,6 @@
 import { Spinner } from "react-bootstrap";
 import { useQueryGetCars } from "../hooks/car/useQueryGetCars"
-import { CarCard } from "../components/carCard";
+import { CarCard } from "./carCard";
 import type { ICar } from "../types/car";
 
 export function CarList({ onEdit }: { onEdit: (car: ICar) => void }) {
